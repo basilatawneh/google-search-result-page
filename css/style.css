@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+div {
+    white-space: pre-wrap;
+}
 .header{
     box-sizing: border-box;
     display: flex;
@@ -43,5 +46,26 @@
 .line{
     border-bottom: solid 1px #1d1b1b1c;
     margin-top: 15px;
+}
+
+.result{
+    width: 51%;
+    padding-left: 11%;
+    display: flex;
+    flex-direction: column;
+
+}
+.result .para_line1{
+    color:#2f2fa7;
+    font-size: 20px;
+}
+.result .para_line2{
+    color:green;
+}
+.result .para_line3{
+    color:#615b5b; 
+}
+.result .para_line4{
+    color:#2f2fad; 
 }
 
