@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+}
+.header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.header img{
+    padding: 2% 3% 2% 1%;
+    width: 11%;
+}
+.header input{
+    height: 30px;
+    width: 40%;
+
+}
+
+.sub_header{
+     display: flex;
+    justify-content: space-between; 
+    width: 51%;
+    padding-left: 11%;
+
+}
+.sub_header .result_type{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.sub_header .tool{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+}
+.sub_header div div a{
+    color: #5b5f63;
+    text-decoration: none;
+}
+
+.line{
+    border-bottom: solid 1px #1d1b1b1c;
+    margin-top: 15px;
+}
+
